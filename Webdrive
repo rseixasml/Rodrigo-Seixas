@@ -1,0 +1,20 @@
+@Test
+public void preencherBuscaWebMotors() {
+  WebDriver driver = new ChromeDriver();
+  // Visita a página do WebMotors
+  driver.get("https://www.webmotors.com.br/");
+ 
+  // Escolha de Marca
+  Select selectMarca = new Select(driver.findElement(By.name("Marca")));
+  selectMarca.selectByVisibleText("HONDA");
+  // Escolha de Modelo
+  WebElement inputModelo = driver.findElement(By.name("Modelo"));
+  inputModelo.sendKeys("City");
+  // Escolha de Versao
+  WebElement inputVersao = driver.findElement(By.name("Versao"));
+  inputVersao.sendKeys("1.5 DX 16V FLEX 4P MANUAL");
+ 
+  // clica no botão Buscar
+  WebElement buttonBuscar = driver.findElement(By.cssSelector("input[type='submit'"));
+  buttonBuscar.click();
+}
