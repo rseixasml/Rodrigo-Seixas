@@ -1,0 +1,45 @@
+   <soapenv:Header/>
+   <soapenv:Body>
+      <prop:ConfProposta>
+         <dsEntrada>
+		     <DtBusca>30/01/2021</DtBusca>
+    <CodVersao>30.01.21</CodVersao>
+  </Autenticacao>
+    <Automovel>
+      <NumItem>000001</NumItem>
+      <TipoOperacao>10</TipoOperacao>
+      <DescTipoOperacao/>
+      <CodModFIPE>023152-5</CodModFIPE>
+      <CodModHDI>0018295</CodModHDI>
+      <Marca>HONDA</Marca>
+      <Modelo>1.5 DX 16V FLEX 4P MANUAL.</Modelo>
+      <Renavam>39590276781<Renavam>
+      <Proprietario>RODRIGO SEIXAS</Proprietario>
+      <CPF>23774011044</CPF>
+      <Beneficiario>RODRIGO SEIXAS</Beneficiario>
+	  <nmEmail>rodrigo.seixas@teste.com.br</nmEmail>
+	  <Telefone>11112371823</Telefone>
+      <TelefoneCelular>11972728920</TelefoneCelular>
+	  <DataNasc>04/11/1989</DataNasc>
+      <CodCategoria>11</CodCategoria>
+      <Carroceria>Sedã</Carroceria>
+      <Codregiao>152</Codregiao>
+      <Regiao>GDSP - OESTE III</Regiao>
+      <chassi/>
+      <AnoFabricacao>2010</AnoFabricacao>
+      <AnoModelo>2011</AnoModelo>
+      <Placa>ABC1234</Placa>
+      <CodCombustivel>1</CodCombustivel>
+      <Combustivel>GASOLINA</Combustivel/>
+	  <Câmbio>MANUAL</Câmbio/>
+	  <Cor>PRATA</<Cor>/>
+	  <UnicoDono>SIM</UnicoDono>/> 
+	  <Passageiros>5</Passageiros>
+	  <VlrAnunciado>27.900</VlrAnunciado>
+      <VlrMed>32.406</VlrMed>
+	  <Vlrfipe>31.529</Vlrfipe>
+	    </Documento>  
+         </dsEntrada>
+      </prop:ConfProposta>
+   </soapenv:Body>
+</soapenv:Envelope>
